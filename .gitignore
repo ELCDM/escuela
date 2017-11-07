@@ -1,5 +1,8 @@
+<<<<<<< HEAD
 .htaccess
 wp-config.php
+=======
+>>>>>>> 38ac44e3428d930bc642822e73ad2a04b3f8d73b
 wp-content/advanced-cache.php
 wp-content/backup-db/
 wp-content/backups/
