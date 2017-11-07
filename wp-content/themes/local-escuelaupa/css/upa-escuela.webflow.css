@@ -681,7 +681,7 @@
   padding-left: 17%;
   float: left;
   color: #9dadb9;
-  font-size: 64px;
+  font-size: 75px;
   font-style: italic;
   font-weight: 800;
 }
@@ -1281,7 +1281,7 @@
 .unaunidad {
   position: relative;
   width: 50%;
-  min-height: 455px;
+  min-height: 655px;
   margin-bottom: 20px;
   padding-left: 1%;
   float: left;
@@ -1808,6 +1808,11 @@
 #mapa{
   min-height: 400px;
 }
+.unaunidad img{
+  width: 84%;
+  max-height: 195px;
+  max-width: 387px;
+}
 @media (max-width: 991px) {
  .w-nav-overlay{
   height: auto !important;
@@ -1926,7 +1931,7 @@
   margin-right: -8%;
 }
 .unaunidad {
-  min-height: 525px;
+  min-height: 675px;
 }
 .tituldelblogint {
   padding-right: 5%;
