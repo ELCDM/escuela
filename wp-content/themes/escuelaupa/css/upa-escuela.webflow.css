@@ -1,0 +1,2469 @@
+.body {
+  font-family: 'Open Sans', sans-serif;
+  color: #474748;
+}
+
+.header_content {
+  position: relative;
+  width: 100%;
+  float: left;
+}
+
+.conten_content {
+  position: relative;
+  width: 100%;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  float: left;
+}
+
+.conten_content.min5000 {
+  min-height: 0px;
+}
+
+.footer_content {
+  position: relative;
+  width: 100%;
+  min-height: 0px;
+  float: left;
+}
+
+.div1180 {
+  position: relative;
+  display: block;
+  width: 100%;
+  max-width: 1180px;
+  margin-right: auto;
+  margin-left: auto;
+  float: none;
+  clear: both;
+}
+
+.div1180.enlasfots {
+  padding-right: 1%;
+  padding-left: 1%;
+}
+
+.menucontent {
+  position: relative;
+  width: 100%;
+  float: left;
+  background-color: transparent;
+}
+
+.logoescuela {
+  position: relative;
+  width: 22%;
+  margin-top: 30px;
+  float: left;
+}
+
+.containermen {
+  position: relative;
+  width: 100%;
+  max-width: 1180px;
+  float: left;
+}
+
+.nav-menu {
+  position: relative;
+  width: 63%;
+  margin-top: 24px;
+  margin-right: 0%;
+  margin-left: 0%;
+  float: right;
+}
+/* ESTILO PERSONALIZADO AGREGADO */
+.wpmenu ul{  
+ float: none;
+ padding: 0;
+ margin: 0 auto;
+ display: block;
+ position: relative;
+ width: 100%;
+ list-style: none;
+ max-width: 608px;
+}
+.wpmenu ul li{
+  float: left;
+  display: block;
+  position: relative;
+  border-right: 1px solid #b4b4b4;
+  width: auto;
+}
+
+.wpmenu ul li a{
+  display: block;
+  position: relative;
+  text-transform: uppercase;
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+  line-height: 20px;
+  color: #222222;
+  text-decoration: none;
+  padding-right: 17px;
+  padding-bottom: 24px;
+  padding-left: 17px;
+  padding-top: 18px;
+}
+.itemenu.ultitem, .wpmenu ul li:last-child {
+  border-right-style: none;
+}
+.current_page_item a, .wpmenu ul li:hover {
+  color: #0082f3 !important;
+}
+/*TERMINA*/
+.buscar {
+  width: 11%;
+  min-width: 138px;
+  margin-bottom: 0px;
+  padding-top: 37px;
+  padding-bottom: 15px;
+  float: right;
+  background-image: -webkit-linear-gradient(270deg, #f6f6f6, #fff);
+  background-image: linear-gradient(180deg, #f6f6f6, #fff);
+}
+
+.formcontent {
+  position: relative;
+  width: 100%;
+  padding-top: 0px;
+  float: left;
+}
+
+.textbuscar {
+  position: relative;
+  width: 64%;
+  float: left;
+  border-style: none;
+  border-bottom-width: 1px;
+  border-bottom-color: #f6f6f6;
+  background-color: transparent;
+}
+
+.lupita {
+  width: 36%;
+  background-color: transparent;
+  background-image: url('../images/lupita.png');
+  background-position: 33% 50%;
+  background-size: auto;
+  background-repeat: no-repeat;
+  color: transparent;
+}
+
+.imglogo {
+  position: relative;
+  width: 100%;
+  float: left;
+}
+
+.sliderhome {
+  width: 100%;
+  height: auto;
+  min-height: 0px;
+  margin-top: 26px;
+  float: left;
+  background-color: transparent;
+}
+
+.slide {
+  min-height: 422px;
+  background-image: url('../images/1.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.slide.slide2 {
+  background-image: url('../images/2-3.png');
+}
+
+.slide.slide3 {
+  background-image: url('../images/3.png');
+}
+
+.slide.slide4 {
+  background-image: url('../images/4-1.png');
+}
+
+.slide.slide5 {
+  background-image: url('../images/5.png');
+}
+
+.mask {
+  overflow: visible;
+  width: 300px;
+  min-height: 0px;
+  float: left;
+  background-color: hsla(0, 0%, 50%, .58);
+}
+
+.mask.maskfull {
+  overflow: hidden;
+  width: 100%;
+  background-color: transparent;
+}
+
+.labelcurso {
+  position: relative;
+  margin-top: 84px;
+  margin-left: 10%;
+  padding: 4px 10px 2px;
+  float: left;
+  background-color: transparent;
+  color: #fff;
+  font-size: 12px;
+  font-weight: 700;
+}
+
+.heading {
+  position: relative;
+  margin-top: 18px;
+  margin-left: 10%;
+  float: left;
+  clear: both;
+  color: #104980;
+  font-size: 30px;
+  line-height: 30px;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+  max-width: 40%;
+}
+
+.text-block {
+  position: relative;
+  margin-left: 10%;
+  padding-left: 2px;
+  float: left;
+  clear: both;
+  color: #333;
+  font-size: 17px;
+  font-weight: 800;
+  letter-spacing: 0.5px;
+}
+
+.botslide {
+  position: relative;
+  margin-top: 36px;
+  margin-bottom: 60px;
+  margin-left: 10.4%;
+  padding: 11px 20px 9px;
+  float: left;
+  clear: both;
+  border: 4px solid #ccc;
+  border-radius: 10px;
+  background-color: #fff;
+  color: #16335d;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.botslide:hover {
+  background-color: #154986;
+  color: #fff;
+}
+
+.flechslide {
+  right: 0px;
+  margin-top: 140px;
+  margin-right: 0px;
+  margin-left: 0px;
+  padding: 27px 50px 66px 10px;
+  float: none;
+  background-color: rgba(0, 0, 0, .09);
+}
+
+.flechslide.derecflechslide {
+  margin-left: 20px;
+}
+
+.flechslide.engal {
+  margin-top: 60px;
+}
+
+.flechslide.engal.derecflech {
+  margin-left: 25%;
+  float: right;
+}
+
+.accesoscontent {
+  position: relative;
+  width: 100%;
+  padding-top: 33px;
+  float: left;
+}
+
+.lineatit {
+  position: relative;
+  width: 30%;
+  height: 1px;
+  margin-top: 37px;
+  margin-right: 3%;
+  margin-left: 5%;
+  float: left;
+  background-color: #16335d;
+}
+
+.lineatit.derech {
+  width: 30%;
+  margin-right: 5%;
+  margin-left: 3%;
+  float: right;
+}
+
+.tituldeaccesos {
+  position: relative;
+  width: 24%;
+  min-width: 231px;
+  float: left;
+  color: #16335d;
+  font-size: 16px;
+  font-weight: 600;
+  text-align: center;
+}
+
+.titulcontent {
+  position: relative;
+  width: 100%;
+  float: left;
+}
+
+.accesosiconscontent {
+  position: relative;
+  width: 100%;
+  margin-top: 42px;
+  float: left;
+}
+
+.div960 {
+  position: relative;
+  display: block;
+  max-width: 960px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.div960.lasunidades {
+  padding-top: 50px;
+}
+
+.acceso {
+  position: relative;
+  width: auto;
+  padding-right: 6.7%;
+  padding-left: 6.7%;
+  float: left;
+  background-color: transparent;
+  background-image: url('../images/shape.png');
+  background-position: 100% 50%;
+  background-size: auto;
+  background-repeat: no-repeat;
+}
+
+.acceso.ulimacces {
+  background-image: none;
+}
+
+.imgdeaccs {
+  position: relative;
+  display: block;
+  margin-top: 13px;
+  margin-right: auto;
+  margin-left: auto;
+  float: none;
+}
+
+.text-block-2 {
+  position: relative;
+  width: 100%;
+  margin-top: 15px;
+  float: left;
+  color: #000;
+  font-size: 11px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.contentinformfull {
+  position: relative;
+  width: 100%;
+  margin-top: 60px;
+  float: left;
+  background-color: #f8f8f8;
+}
+
+.contentinfo {
+  position: relative;
+  width: 100%;
+  margin-top: 40px;
+  float: left;
+  font-size: 29px;
+  font-weight: 300;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.losblogs {
+  position: relative;
+  width: 100%;
+  margin-top: 27px;
+  margin-bottom: 40px;
+  float: left;
+}
+
+.vertodobot {
+  position: absolute;
+  right: 0px;
+  z-index: 1;
+  margin-top: 40px;
+  margin-right: 3%;
+  background-color: transparent;
+  background-image: url('../images/felchit.png');
+  background-position: 100% 50%;
+  background-size: auto;
+  background-repeat: no-repeat;
+  color: #666565;
+  font-size: 12px;
+}
+
+.vertodobot:hover {
+  text-decoration: underline;
+}
+
+.unblog {
+  position: relative;
+  overflow: hidden;
+  width: 31%;
+  margin-right: 1%;
+  margin-left: 1%;
+  padding-bottom: 40px;
+  float: left;
+  border: 1px solid #d7e2e6;
+  border-radius: 10px;
+  background-color: #f2f5f6;
+  text-decoration: none;
+}
+
+.imgblog {
+  position: relative;
+  width: 100%;
+  float: left;
+}
+
+.fechablog {
+  position: relative;
+  width: 100%;
+  margin-top: 15px;
+  margin-bottom: 9px;
+  float: left;
+  color: #333;
+  font-size: 11px;
+  font-weight: 300;
+  text-align: center;
+}
+
+.textextracgt {
+  position: relative;
+  display: block;
+  width: 85%;
+  margin-right: auto;
+  margin-left: auto;
+  float: none;
+  clear: both;
+  color: #474748;
+  font-size: 13px;
+  line-height: 17px;
+  text-align: center;
+  text-decoration: none;
+}
+
+.footerupfull {
+  margin-top: 0px;
+  background-color: #103f77;
+}
+/* AGREGAR ESTILOS DE MENU FOOTER*/ 
+.mapasitio {
+  position: relative;
+  min-width: 456px;
+  margin-top: 70px;
+  margin-left: 0%;
+  float: left;
+  font-weight: 300;
+}
+.mapasitio ul{
+  display: block;
+  position: relative;
+  float: left;
+  width: 100%;
+  list-style: none;
+  padding: 0;
+}
+.itemdemapasitio, .mapasitio ul li {
+  margin-right: 2.5%;
+  margin-left: 2.5%;
+  float: left;
+  margin-bottom: 10px;
+}
+.mapasitio ul li a{
+  color: #fff;
+  font-size: 14px;
+  text-decoration: none;
+}
+.mapasitio ul li a:hover {
+  text-decoration: underline;
+}
+
+.suscribmod {
+  width: 48.5%;
+  margin-top: -8px;
+  margin-right: 10px;
+  float: right;
+  background-image: url('../images/pest.png');
+  background-position: 0px 0px;
+  background-size: auto;
+  background-repeat: no-repeat;
+}
+
+.contentnews {
+  width: 99%;
+  float: right;
+  background-color: #0a3669;
+}
+
+.imgnewscontent {
+  width: 34%;
+  float: left;
+}
+
+.textcontentnews {
+  position: relative;
+  width: 66%;
+  float: left;
+}
+
+.imgdenews {
+  display: block;
+  margin-top: 60px;
+  margin-right: auto;
+  margin-left: auto;
+  text-align: left;
+}
+
+.tituldenewsfoot {
+  position: relative;
+  width: 100%;
+  margin-top: 33px;
+  float: left;
+  color: #1d8eed;
+  font-weight: 700;
+}
+
+.textnews {
+  position: relative;
+  width: 100%;
+  margin-top: 1px;
+  float: left;
+  color: #fff;
+  font-weight: 300;
+}
+
+.suscribirse {
+  position: relative;
+  width: 100%;
+  margin-top: 17px;
+  float: left;
+}
+
+.text-field {
+  width: 77%;
+  float: left;
+}
+
+.enviaremail {
+  position: relative;
+  width: 14%;
+  float: left;
+  border: 1px none #000;
+  background-color: #207bc8;
+  background-image: url('../images/flechitnews.png');
+  background-position: 50% 50%;
+  background-size: auto;
+  background-repeat: no-repeat;
+  color: transparent;
+}
+
+.footerdownfull {
+  position: relative;
+  width: 100%;
+  padding-bottom: 12px;
+  float: left;
+  background-color: #154986;
+}
+
+.derechos {
+  position: relative;
+  margin-top: 20px;
+  margin-left: 1%;
+  float: left;
+  color: #8eb2db;
+  font-size: 13px;
+  font-weight: 300;
+}
+
+.redesfooter {
+  position: relative;
+  float: right;
+}
+
+.facebooklink {
+  width: 25px;
+  height: 47px;
+  margin-top: 30px;
+  margin-right: 95%;
+  float: right;
+  background-image: url('../images/fb.png');
+  background-position: 0px 0px;
+  background-size: auto;
+  background-repeat: no-repeat;
+}
+
+.titlehistoria {
+  position: relative;
+  width: 100%;
+  margin-top: 26px;
+  float: left;
+  background-color: #3dae28;
+}
+
+.titlehistoria.titulcursos {
+  background-color: #103f77;
+}
+
+.titlehistoria.titulcursos.titulintercurs {
+  background-color: #103f77;
+}
+
+.titulseccion {
+  position: relative;
+  width: 100%;
+  margin-top: 60px;
+  margin-bottom: 56px;
+  float: left;
+  color: #fff;
+  font-size: 41px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.titulseccion.titulinterncurs {
+  margin-bottom: 38px;
+  font-size: 32px;
+  line-height: 31px;
+}
+
+.lahistoriacontent {
+  position: relative;
+  width: 100%;
+  float: left;
+  background-image: url('../images/fondodehistoria.jpg');
+  background-position: 50% 50%;
+  background-size: cover;
+}
+
+.sliderhistoria {
+  min-height: 320px;
+  background-color: transparent;
+}
+
+.tituldehistoria {
+  position: relative;
+  width: 100%;
+  margin-top: 70px;
+  padding-left: 17%;
+  float: left;
+  color: #9dadb9;
+  font-size: 81px;
+  font-style: italic;
+  font-weight: 800;
+}
+
+.textdeslidehistoria {
+  position: relative;
+  width: 100%;
+  min-height: 0px;
+  margin-top: 47px;
+  padding-right: 17%;
+  padding-left: 17%;
+  float: left;
+  line-height: 21px;
+  text-align: justify;
+}
+
+.slide-2 {
+  min-height: 0px;
+}
+
+.slidenav {
+  position: relative;
+  width: 100%;
+  float: left;
+}
+
+.misionvisioncontent {
+  position: relative;
+  width: 100%;
+  float: left;
+  background-color: #112c44;
+}
+
+.tituldevision {
+  position: relative;
+  width: 78%;
+  margin-top: 42px;
+  margin-bottom: 56px;
+  margin-left: 11%;
+  float: left;
+  color: #19c3e7;
+  font-size: 16px;
+  line-height: 22px;
+  text-align: center;
+}
+
+.misionvisionc {
+  position: relative;
+  display: block;
+  width: 83%;
+  margin-right: auto;
+  margin-bottom: 70px;
+  margin-left: auto;
+  float: none;
+  clear: both;
+}
+
+.visioncontent {
+  position: relative;
+  width: 50%;
+  padding-top: 6px;
+  float: left;
+}
+
+.image {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.tituldevis {
+  position: relative;
+  width: 100%;
+  float: left;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 400;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.tituldevis.titlmis {
+  margin-top: 7px;
+}
+
+.textmi {
+  position: relative;
+  width: 100%;
+  margin-top: 25px;
+  padding-right: 5%;
+  padding-left: 5%;
+  float: left;
+  color: #fff;
+  font-size: 15px;
+  line-height: 19px;
+  font-weight: 300;
+  text-align: center;
+}
+
+.div-block {
+  position: relative;
+  float: left;
+}
+
+.instalacionescontent {
+  position: relative;
+  width: 100%;
+  margin-bottom: 100px;
+  padding-top: 12px;
+  float: left;
+}
+
+.sliderinstalaciones {
+  position: relative;
+  width: 100%;
+  max-height: 192px;
+  margin-top: 27px;
+  float: left;
+  background-color: transparent;
+}
+
+.displaynone {
+  display: none;
+}
+
+.slidegal {
+  width: 300px;
+  background-color: transparent;
+  background-image: url('../images/insta2.png');
+  background-position: 50% 50%;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.slidegal2 {
+  width: 300px;
+  background-color: transparent;
+}
+
+.slidergalery {
+  height: 192px;
+  margin-top: 86px;
+  background-color: transparent;
+  overflow: hidden;
+}
+
+.fotdeescuel {
+  width: 305px;
+  margin-right: 2px;
+  background-image: url('../images/insta2.png');
+  background-position: 0px 0px;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.fotdeescuel.imgdegal1 {
+  margin-right: 2px;
+  background-image: url('../images/insta2.png');
+  background-position: 50% 50%;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.fotdeescuel.imgdegal2 {
+  background-image: url('../images/insta3.png');
+  background-position: 0px 0px;
+  background-size: cover;
+}
+
+.fotdeescuel.imgdegal3 {
+  background-image: url('../images/insta4.png');
+  background-position: 50% 50%;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.maskdegals {
+  position: relative;
+  display: block;
+  overflow: visible;
+  width: 305px;
+  float: left;
+}
+
+.sombra {
+  position: absolute;
+  z-index: 2;
+  width: 40%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, .51);
+}
+
+.sombra.sombra2 {
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+}
+
+.contentcursos {
+  position: relative;
+  width: 100%;
+  padding-top: 23px;
+  float: left;
+}
+
+.contentcursos.contentblog {
+  padding-top: 38px;
+}
+
+.uncurso {
+  overflow: hidden;
+  width: 31%;
+  margin-right: 1%;
+  margin-bottom: 16px;
+  margin-left: 1%;
+  border: 1px solid #d7e2e6;
+  background-color: #fafafa;
+  color: #353535;
+  text-decoration: none;
+}
+
+.uncurso.unbloggrid {
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+.imgdecurs {
+  position: relative;
+  width: 100%;
+  max-height: 317px;
+  float: left;
+}
+
+.tituldecursgrid {
+  position: relative;
+  min-height: 35px;
+  margin-left: 6%;
+  float: left;
+  font-size: 18px;
+  line-height: 18px;
+  text-transform: uppercase;
+}
+
+.tituldecursgrid.titulblog {
+  width: 90%;
+  margin-left: 5%;
+  text-align: center;
+}
+
+.textdecurso {
+  position: relative;
+  width: 87%;
+  max-height: 50px;
+  min-height: 50px;
+  margin-top: 7px;
+  margin-left: 6%;
+  float: left;
+  line-height: 16px;
+}
+
+.textdecurso.descblog {
+  width: 90%;
+  margin-bottom: 27px;
+  margin-left: 5%;
+  text-align: center;
+}
+
+.fechcursgrid {
+  position: relative;
+  width: 88%;
+  margin-top: 11px;
+  margin-bottom: 17px;
+  margin-left: 6%;
+  float: left;
+  font-size: 13px;
+  font-weight: 600;
+}
+
+.link {
+  position: relative;
+  width: 98%;
+  margin: 33px 1% 20px;
+  padding-top: 21px;
+  padding-bottom: 21px;
+  float: left;
+  border: 1px solid #d7e2e6;
+  background-color: #fafafa;
+  color: #353535;
+  text-align: center;
+  text-decoration: none;
+}
+
+.link:hover {
+  border-width: 1px;
+  border-color: #103f77;
+  color: #103f77;
+}
+
+.contentinterpro {
+  position: relative;
+  width: 100%;
+  float: left;
+}
+
+.imginterdecurs {
+  position: relative;
+  width: 57%;
+  margin-top: 22px;
+  margin-left: 1%;
+  float: left;
+}
+
+.infoprincipcurs {
+  position: relative;
+  width: 42%;
+  margin-top: 22px;
+  float: left;
+}
+
+.fechadeinicio {
+  position: relative;
+  width: 92%;
+  margin-top: 7px;
+  margin-left: 8%;
+  float: left;
+  color: #0e2216;
+  font-size: 17px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.textinterimp {
+  position: relative;
+  width: 82%;
+  margin-top: 16px;
+  margin-left: 8%;
+  float: left;
+  line-height: 17px;
+}
+
+.ctapreinscir {
+  position: relative;
+  width: 75%;
+  margin-top: 42px;
+  margin-left: 8%;
+  padding-top: 14px;
+  padding-bottom: 20px;
+  float: left;
+  background-color: transparent;
+  background-image: url('../images/fondobot.png');
+  background-position: 0px 0px;
+  background-size: cover;
+  font-weight: 700;
+  text-align: center;
+  text-shadow: 1px 1px 3px #000;
+}
+
+.ctapreinscir:hover {
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  background-size: 100% 115%;
+}
+
+.ctapreinscir.ctaconts {
+  display: block;
+  width: 100%;
+  max-width: 300px;
+  margin-top: 37px;
+  margin-right: auto;
+  margin-left: auto;
+  float: none;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+.ctapreinscir.ctaconts:hover {
+  background-size: 100% 110%;
+}
+
+.ctapreinscir.botdeacademia {
+  display: block;
+  max-width: 300px;
+  min-width: 300px;
+  margin-top: -27px;
+  margin-right: auto;
+  margin-left: auto;
+  float: none;
+  clear: both;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+.ctapreinscir.botdeacademia:hover {
+  background-size: 100% 115%;
+}
+
+.ctapreinscir.botinteracademia {
+  width: 89%;
+  min-width: 300px;
+  margin-top: 8px;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+.ctapreinscir.botinteracademia:hover {
+  background-size: 100% 150%;
+}
+
+.infoprinc {
+  position: relative;
+  width: 100%;
+  float: left;
+}
+
+.moddeflors {
+  position: relative;
+  width: 100%;
+  margin-top: 21px;
+  float: left;
+  background-color: #f1f1f1;
+}
+
+.titul2intercurso {
+  margin-top: 39px;
+  margin-bottom: 17px;
+  color: #000;
+  font-size: 18px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.text-block-3 {
+  display: block;
+  width: 43%;
+  min-width: 705px;
+  margin-right: auto;
+  margin-bottom: 42px;
+  margin-left: auto;
+  font-size: 18px;
+  line-height: 21px;
+  text-align: center;
+}
+
+.datosdescuela {
+  position: relative;
+  width: 100%;
+  padding-bottom: 61px;
+  float: left;
+  background-color: #3dae28;
+}
+
+.datoscenter {
+  display: block;
+  width: 345px;
+  margin-top: 36px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.datodeup {
+  position: relative;
+  width: 100%;
+  margin-top: 5px;
+  margin-bottom: 9px;
+  padding-left: 31%;
+  float: left;
+  background-image: url('../images/fbinter.png');
+  background-position: 81px 0px;
+  background-size: auto;
+  background-repeat: no-repeat;
+  color: #fff;
+  font-size: 15px;
+  text-decoration: none;
+}
+
+.datodeup.nusmcon {
+  background-image: url('../images/tels.png');
+  background-size: auto;
+}
+
+.datodeup.direcsa {
+  background-image: url('../images/ubics.png');
+  background-size: auto;
+}
+
+.textdeacademia {
+  position: relative;
+  width: 100%;
+  margin-top: 46px;
+  margin-bottom: 35px;
+  padding-right: 1%;
+  padding-bottom: 36px;
+  padding-left: 1%;
+  float: left;
+  color: #fff;
+  font-size: 15px;
+  line-height: 21px;
+  text-align: center;
+}
+
+.textyfotosconte {
+  position: relative;
+  width: 100%;
+  padding-bottom: 101px;
+  float: left;
+  background-color: #eee;
+}
+
+.textacadconet {
+  position: relative;
+  width: 100%;
+  float: left;
+  background-color: #112c44;
+}
+
+.contentdeacademitex {
+  position: relative;
+  width: 100%;
+  float: left;
+}
+
+.untextdeaca {
+  position: relative;
+  width: 47%;
+  margin-top: 95px;
+  margin-right: 3%;
+  margin-bottom: 66px;
+  float: left;
+}
+
+.imgdetext {
+  position: relative;
+  display: block;
+  min-height: 69px;
+  margin-top: 6px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-bottom: 0px;
+}
+
+.textdetext {
+  position: relative;
+  width: 100%;
+  margin-top: 29px;
+  padding-right: 5%;
+  padding-left: 3%;
+  float: left;
+  line-height: 22px;
+  text-align: justify;
+}
+
+.fotaca {
+  position: relative;
+  width: 31.33%;
+  margin-right: 1%;
+  margin-left: 1%;
+  float: left;
+}
+
+.bannerfulldeacademia {
+  overflow: hidden;
+  max-height: 410px;
+  margin-top: 25px;
+  background-image: url('../images/fondoacademiainter.png');
+  background-position: 0px 0px;
+  background-size: cover;
+}
+
+.titulybot {
+  position: absolute;
+  left: 6%;
+  top: 120px;
+  margin-top: 0px;
+  float: left;
+}
+
+.imgdeacademia {
+  position: relative;
+  width: 59%;
+  float: right;
+}
+
+.heading-2 {
+  margin-bottom: 0px;
+  color: #fff;
+  font-size: 30px;
+  text-align: center;
+}
+
+.contentdeacade {
+  position: relative;
+  width: 100%;
+  float: left;
+  background-color: #f1f1f1;
+}
+
+.unaunidad {
+  position: relative;
+  width: 50%;
+  min-height: 455px;
+  margin-bottom: 20px;
+  padding-left: 1%;
+  float: left;
+  color: #000;
+}
+
+.tituldeunidad {
+  position: relative;
+  width: 100%;
+  margin-top: 0px;
+  float: left;
+  color: #0e2216;
+  font-size: 22px;
+  line-height: 24px;
+  text-transform: uppercase;
+}
+
+.textdeunidad {
+  position: relative;
+  width: 84%;
+  margin-top: 10px;
+  float: left;
+  line-height: 17px;
+}
+
+.listdeunidad {
+  position: relative;
+  width: 84%;
+  margin-top: 24px;
+  padding-left: 4%;
+  float: left;
+}
+
+.list-item {
+  line-height: 32px;
+}
+
+.list-item-2 {
+  line-height: 23px;
+}
+
+.list-item-3 {
+  line-height: 31px;
+}
+
+.list-item-4 {
+  line-height: 32px;
+}
+
+.list-item-5 {
+  line-height: 32px;
+}
+
+.list-item-6 {
+  line-height: 32px;
+}
+
+.barraazul {
+  position: absolute;
+  top: 25px;
+  width: 100%;
+  min-height: 162px;
+  background-color: #103f77;
+}
+
+.tituleimgblog {
+  position: relative;
+  width: 100%;
+  margin-top: 76px;
+  float: left;
+}
+
+.tituldelblogint {
+  position: relative;
+  width: 46%;
+  margin-top: 0px;
+  margin-left: 0%;
+  padding: 72px 8% 65px;
+  float: left;
+  border: 1px solid #d6cdc2;
+  background-color: #fbfaf7;
+  color: #272738;
+  font-size: 19px;
+  line-height: 26px;
+  font-weight: 600;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.imgdebloginter {
+  width: 49%;
+}
+
+.botregres {
+  width: 4%;
+  height: 38px;
+  margin-right: 1%;
+  float: left;
+  background-color: #3566a0;
+  background-image: url('../images/fle.png');
+  background-position: 50% 50%;
+  background-size: auto;
+  background-repeat: no-repeat;
+  color: transparent;
+}
+
+.botregres:hover {
+  background-color: #568dce;
+}
+
+.fechdeinterb {
+  position: relative;
+  width: 95%;
+  margin-top: 22px;
+  margin-left: 5%;
+  float: left;
+  font-size: 9px;
+}
+
+.textdelblog {
+  position: relative;
+  width: 55%;
+  margin-top: 9px;
+  margin-left: 5%;
+  float: left;
+  font-size: 15px;
+  line-height: 22px;
+}
+
+.textyrecomen {
+  position: relative;
+  width: 100%;
+  margin-bottom: 125px;
+  float: left;
+}
+
+.recomends {
+  width: 32%;
+  margin-top: 14px;
+  margin-left: 8%;
+  padding-right: 0.5%;
+  padding-left: 0.5%;
+  float: left;
+}
+
+.textderecient {
+  position: relative;
+  width: 66px;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  float: left;
+  background-color: #446d8a;
+  color: #fff;
+  font-size: 11px;
+  text-align: center;
+}
+
+.unrecomendado {
+  position: relative;
+  width: 100%;
+  margin-top: 19px;
+  margin-bottom: 6px;
+  float: left;
+  color: #333;
+}
+
+.inmdereco {
+  position: relative;
+  width: 17%;
+  margin-left: 0.7%;
+  float: left;
+}
+
+.textderecomnes {
+  position: relative;
+  width: 100%;
+  margin-left: 3%;
+  float: left;
+  font-size: 13px;
+  line-height: 16px;
+}
+
+.titulyfech {
+  position: relative;
+  width: 73%;
+  float: left;
+}
+
+.fechderecoms {
+  position: relative;
+  width: 97%;
+  margin-left: 3%;
+  padding-top: 3px;
+  padding-left: 11%;
+  float: left;
+  background-image: url('../images/calendar.png');
+  background-position: 3px 50%;
+  background-size: auto;
+  background-repeat: no-repeat;
+  font-size: 10px;
+}
+
+.contentcontac {
+  position: relative;
+  width: 100%;
+  float: left;
+}
+
+.textdecontact {
+  position: relative;
+  width: 40%;
+  margin-top: 65px;
+  margin-right: 4.5%;
+  float: left;
+}
+
+.formdecontact {
+  position: relative;
+  width: 55%;
+  margin-top: 72px;
+  float: left;
+}
+
+.tituldetextcont {
+  position: relative;
+  width: 100%;
+  margin-top: 0px;
+  padding-left: 2%;
+  float: left;
+  color: #103f77;
+  font-size: 20px;
+}
+
+.textdecontss {
+  position: relative;
+  width: 100%;
+  margin-bottom: 64px;
+  padding-right: 3%;
+  padding-left: 3%;
+  float: left;
+  color: #5c5e61;
+  font-size: 14px;
+  line-height: 16px;
+}
+
+.unlinkdecont {
+  position: relative;
+  width: 100%;
+  margin-top: 0px;
+  margin-bottom: 14px;
+  padding-left: 11%;
+  float: left;
+  background-image: url('../images/iconscontact_01.jpg');
+  background-position: 9px 50%;
+  background-size: auto;
+  background-repeat: no-repeat;
+  color: #5c5e61;
+  text-decoration: none;
+}
+
+.unlinkdecont.texls {
+  background-image: url('../images/iconscontact_03.jpg');
+  background-size: auto;
+}
+
+.unlinkdecont.direc {
+  background-image: url('../images/iconscontact_05.jpg');
+  background-size: auto;
+}
+
+.textfield {
+  position: relative;
+  width: 48%;
+  min-height: 40px;
+  margin-right: 1%;
+  margin-bottom: 15px;
+  margin-left: 1%;
+  padding-top: 12px;
+  padding-bottom: 14px;
+  float: left;
+  border: 1px solid #c6c6c6;
+  background-color: transparent;
+}
+
+.mensaje {
+  position: relative;
+  width: 98%;
+  min-height: 137px;
+  margin-right: 1%;
+  margin-left: 1%;
+  float: left;
+  border: 1px solid #c6c6c6;
+  background-color: transparent;
+}
+
+.enviarcontac {
+  min-height: 41px;
+  min-width: 133px;
+  margin-top: 16px;
+  float: right;
+  border-radius: 10px;
+  background-color: #103f77;
+}
+
+.enviarcontac:hover {
+  border: 1px solid #103f77;
+  background-color: #fff;
+  color: #103f77;
+  font-weight: 800;
+}
+
+.mapa {
+  position: relative;
+  width: 96%;
+  margin: 20px 2% 50px;
+  float: left;
+}
+
+.masp {
+  position: relative;
+  width: 100%;
+  float: left;
+}
+
+.utility-page-wrap {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  max-height: 100%;
+  max-width: 100%;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.utility-page-content {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 260px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  text-align: center;
+}
+
+.utility-page-form {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: stretch;
+  -webkit-align-items: stretch;
+  -ms-flex-align: stretch;
+  align-items: stretch;
+}
+
+.img404 {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.text404 {
+  margin-top: 30px;
+  margin-bottom: 0px;
+  color: #103f77;
+  font-size: 24px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+._404 {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 144px;
+  line-height: 150px;
+  font-weight: 400;
+}
+
+.content404 {
+  position: relative;
+  width: 100%;
+  padding-top: 130px;
+  padding-bottom: 130px;
+  float: left;
+  background-color: #e8e8e8;
+}
+
+.titulderesult {
+  margin-top: 70px;
+  margin-bottom: 50px;
+  padding-left: 5%;
+  font-size: 26px;
+  font-weight: 300;
+}
+
+.labusqueda {
+  font-size: 38px;
+}
+
+.unresult {
+  position: relative;
+  width: 100%;
+  margin-bottom: 20px;
+  padding: 10px 5%;
+  float: left;
+  background-color: #f1f1f1;
+}
+
+.itukderes {
+  position: relative;
+  width: 100%;
+  margin-bottom: 10px;
+  float: left;
+  color: #125eb6;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.textderesult {
+  position: relative;
+  width: 100%;
+  float: left;
+  color: #474748;
+  text-decoration: none;
+}
+
+.searchcontent {
+  position: relative;
+  width: 100%;
+  padding-bottom: 50px;
+  float: left;
+  background-color: #fbfbfb;
+}
+
+.emergentecontent {
+  display: block;
+  overflow: hidden;
+  max-width: 500px;
+  margin-top: 0px;
+  margin-right: auto;
+  margin-left: auto;
+  padding: 0px 0px 20px;
+  border: 1px solid #dfdfdf;
+  border-radius: 10px;
+  background-color: #fbfbfb;
+}
+
+.titledeemerg {
+  width: 100%;
+  margin-top: 0px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  float: left;
+  background-color: #103f77;
+  color: #fff;
+  font-size: 37px;
+  font-weight: 400;
+  text-align: center;
+}
+
+.formemerg {
+  position: relative;
+  width: 100%;
+  padding-right: 20px;
+  padding-left: 20px;
+  float: left;
+}
+
+.text-block-4 {
+  position: relative;
+  width: 100%;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  padding-right: 5%;
+  padding-left: 5%;
+  float: left;
+  color: #103f77;
+  text-align: justify;
+}
+
+.form {
+  display: block;
+  width: 100%;
+  float: left;
+}
+
+.textdeemergent {
+  position: relative;
+  width: 100%;
+  min-height: 100px;
+  float: left;
+}
+
+.enviaremerg {
+  position: relative;
+  min-width: 140px;
+  float: right;
+  background-color: #103f77;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+/* ESTILO PERSONALIZADO AGREGADO */
+.fancybox-iframe html body, .fancybox-iframe html
+{
+  background-color: transparent !important; 
+}
+#mapa{
+  min-height: 400px;
+}
+@media (max-width: 991px) {
+ .w-nav-overlay{
+  height: auto !important;
+}
+.containermen {
+  max-width: 990px;
+  min-width: 0px;
+}
+.nav-menu {
+  background-color: #fff;
+  width: 43%;
+}
+.itemenu, .wpmenu ul li{
+ display: block;
+ width: 96%;
+ margin-right: 2%;
+ margin-left: auto;
+ border-bottom: 1px solid #0c4d85;
+ border-right-style: none;
+ float: right;
+}
+.wpmenu ul li a{
+  color: #0c4d85;
+  text-align: right;
+  padding-bottom: 20px;
+}
+.itemenu.ultitem, .wpmenu ul li:last-child {
+  border-right-style: none;
+  border-bottom-style: none;
+}
+.buscar {
+  margin-right: 5%;
+}
+.imglogo {
+  min-width: 250px;
+  margin-left: 4%;
+}
+.menbot {
+  padding-left: 18px;
+}
+.menbot.w--open {
+  background-color: transparent;
+}
+.iconbot {
+  color: #0c4d85;
+  font-size: 51px;
+}
+.labelcurso {
+  margin-top: 34px;
+}
+.lineatit {
+  width: 28%;
+  margin-left: 3%;
+}
+.lineatit.derech {
+  width: 28%;
+  margin-right: 3%;
+}
+.tituldeaccesos {
+  width: 32%;
+  text-align: center;
+}
+.accesosiconscontent {
+  padding-left: 4%;
+}
+.acceso {
+  padding-right: 5%;
+  padding-left: 5%;
+}
+.mapasitio {
+  width: 45%;
+  min-width: 0px;
+  margin-top: 30px;
+  margin-left: 5%;
+}
+.itemdemapasitio {
+  margin: 0px 6% 0px 0%;
+  line-height: 40px;
+}
+.suscribmod {
+  width: 46.5%;
+  background-size: 6px;
+}
+.imgdenews {
+  margin-top: 48px;
+}
+.tituldenewsfoot {
+  margin-top: 22px;
+}
+.sliderhistoria {
+  min-height: 370px;
+}
+.tituldehistoria {
+  margin-top: 40px;
+  line-height: 67px;
+}
+.instalacionescontent {
+  margin-bottom: 80px;
+}
+.tituldecursgrid {
+  max-height: 35px;
+  margin-right: 2%;
+  font-size: 16px;
+}
+.untextdeaca {
+  margin-top: 45px;
+  padding-bottom: 1px;
+}
+.bannerfulldeacademia {
+  overflow: hidden;
+}
+.titulybot {
+  left: 2%;
+}
+.imgdeacademia {
+  margin-right: -8%;
+}
+.unaunidad {
+  min-height: 525px;
+}
+.tituldelblogint {
+  padding-right: 5%;
+  padding-left: 5%;
+}
+.textdelblog {
+  width: 55%;
+}
+.textyrecomen {
+  margin-bottom: 30px;
+}
+.recomends {
+  width: 35%;
+  margin-left: 5%;
+}
+.slide{
+  min-height: 345px;
+  background-size: cover;
+}
+.slide .heading {
+ margin-top: 0;
+}
+.heading{
+  font-size: 25px;
+  line-height: 26px;
+}
+}
+
+@media (max-width: 767px) {
+  .nav-menu {
+    margin-top: 0px;
+    width: 75%;
+  }
+  .buscar {
+    margin-right: 0%;
+  }
+  .imglogo {
+    min-width: 200px;
+  }
+  .sliderhome {
+    margin-top: 0px;
+  }
+  .labelcurso {
+    margin-top: 21px;
+    margin-left: 15%;
+  }
+  .heading {
+    margin-top: 6px;
+    margin-left: 15%;
+    font-size: 21px;
+    line-height: 23px;
+  }
+  .text-block {
+    margin-left: 15%;
+    font-size: 13px;
+    line-height: 18px;
+  }
+  .botslide {
+    margin-top: 14px;
+    margin-left: 15.4%;
+    padding: 10px 20px;
+  }
+  .flechslide {
+    position: absolute;
+    left: 0px;
+    right: auto;
+    bottom: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+  .flechslide.derecflechslide {
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+  .lineatit {
+    width: 21%;
+    margin-right: 1%;
+    margin-left: 1%;
+  }
+  .lineatit.derech {
+    width: 21%;
+    margin-right: 1%;
+    margin-left: 1%;
+  }
+  .tituldeaccesos {
+    width: 53%;
+    min-width: 0px;
+  }
+  .accesosiconscontent {
+    padding-left: 0%;
+  }
+  .div960 {
+    padding-right: 0%;
+    padding-left: 0%;
+  }
+  .div960.lasunidades {
+    padding-top: 10px;
+  }
+  .acceso {
+    width: 50%;
+    margin-bottom: 20px;
+    padding-right: 0%;
+    padding-left: 0%;
+    background-image: none;
+    background-size: auto;
+    background-repeat: repeat;
+  }
+  .contentinfo {
+    padding-left: 5%;
+    font-size: 22px;
+    text-align: left;
+  }
+  .losblogs {
+    display: block;
+    width: 304px;
+    margin-right: auto;
+    margin-left: auto;
+    float: none;
+    clear: both;
+  }
+  .unblog {
+    min-width: 300px;
+    margin-bottom: 30px;
+    margin-left: 0%;
+  }
+  .mapasitio {
+    width: 95%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    float: left;
+  }
+  .suscribmod {
+    width: 100.5%;
+    float: left;
+  }
+  .derechos {
+    margin-top: 50px;
+  }
+  .facebooklink {
+    margin-right: 130%;
+  }
+  .left-arrow {
+    position: absolute;
+  }
+  .titulseccion {
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+  .sliderhistoria {
+    min-height: 370px;
+  }
+  .tituldehistoria {
+    font-size: 43px;
+  }
+  .textdeslidehistoria {
+    margin-top: 17px;
+  }
+  .instalacionescontent {
+    margin-bottom: 60px;
+  }
+  .uncurso {
+    width: 48%;
+  }
+  .imginterdecurs {
+    width: 90%;
+    margin-left: 5%;
+  }
+  .infoprincipcurs {
+    width: 90%;
+    margin-left: 5%;
+  }
+  .textinterimp {
+    margin-bottom: 20px;
+    margin-left: 8%;
+    font-size: 15px;
+  }
+  .ctapreinscir {
+    display: block;
+    width: 75%;
+    max-width: 300px;
+    margin-top: 22px;
+    margin-right: auto;
+    margin-left: auto;
+    float: none;
+    clear: both;
+  }
+  .text-block-3 {
+    position: relative;
+    width: 100%;
+    min-width: 0px;
+    padding-right: 2%;
+    padding-left: 2%;
+    float: left;
+    font-size: 15px;
+  }
+  .titulybot {
+    top: 5px;
+    z-index: 1;
+    width: 100%;
+    max-width: 300px;
+  }
+  .heading-2 {
+    font-size: 25px;
+  }
+  .unaunidad {
+    width: 100%;
+    min-height: 0px;
+    padding-right: 2%;
+    padding-bottom: 10px;
+    padding-left: 2%;
+  }
+  .textdeunidad {
+    width: 98%;
+  }
+  .tituleimgblog {
+    margin-top: 50px;
+  }
+  .tituldelblogint {
+    width: 80%;
+    margin-left: 10%;
+    padding: 20px 3%;
+  }
+  .imgdebloginter {
+    width: 80%;
+    max-width: none;
+    margin-left: 10%;
+  }
+  .botregres {
+    width: 10%;
+    height: 48px;
+    margin-right: 85%;
+    margin-bottom: 11px;
+    margin-left: 5%;
+  }
+  .textdelblog {
+    width: 90%;
+    text-align: justify;
+  }
+  .recomends {
+    width: 90%;
+  }
+  .textderecient {
+    width: 15%;
+    min-width: 66px;
+    margin-right: 85%;
+  }
+  .unrecomendado {
+    width: 48%;
+    margin-right: 2%;
+    margin-bottom: 0px;
+  }
+  .textderecomnes {
+    width: 97%;
+  }
+  .titulyfech {
+    width: 82%;
+  }
+  .fechderecoms {
+    width: 100%;
+  }
+  .textdecontact {
+    width: 100%;
+    margin-top: 20px;
+    padding-left: 4%;
+  }
+  .formdecontact {
+    width: 100%;
+    margin-top: 20px;
+    padding-right: 5%;
+    padding-left: 5%;
+  }
+  .textdecontss {
+    margin-bottom: 30px;
+  }
+  .unlinkdecont {
+    background-position: 29px 0px;
+  }
+  .titulderesult {
+    margin-top: 40px;
+  }
+  .slide {
+    min-height: 275px;
+    background-size: cover;
+  }
+}
+
+@media (max-width: 479px) {
+  .nav-menu {
+    width: 100%;
+    height: auto;
+  }
+  .itemenu {
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  .buscar {
+    position: relative;
+    width: 100%;
+    padding: 0px 3%;
+  }
+  .textbuscar {
+    width: 75%;
+    border-style: none none solid;
+    border-bottom-color: #0c4d85;
+  }
+  .lupita {
+    width: 25%;
+  }
+  .flechslide {
+    display: none;
+  }
+  .accesoscontent {
+    padding-top: 10px;
+  }
+  .tituldeaccesos {
+    line-height: 23px;
+  }
+  .accesosiconscontent {
+    margin-top: 0px;
+  }
+  .acceso {
+    float: left;
+  }
+  .contentinformfull {
+    margin-top: 10px;
+  }
+  .contentinfo {
+    font-size: 20px;
+    text-align: center;
+  }
+  .losblogs {
+    margin-bottom: 10px;
+  }
+  .vertodobot {
+    margin-top: 5px;
+  }
+  .footerupfull {
+    margin-top: 13px;
+  }
+  .imgnewscontent {
+    width: 27%;
+  }
+  .textcontentnews {
+    width: 73%;
+  }
+  .textnews {
+    font-size: 13px;
+  }
+  .derechos {
+    width: 71%;
+    margin-top: 17px;
+    margin-left: 5%;
+  }
+  .facebooklink {
+    margin-top: 10px;
+  }
+  .titlehistoria {
+    margin-top: 0px;
+  }
+  .titulseccion {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 31px;
+    line-height: 33px;
+  }
+  .titulseccion.titulinterncurs {
+    margin-bottom: 20px;
+    font-size: 22px;
+  }
+  .sliderhistoria {
+    min-height: 420px;
+  }
+  .tituldehistoria {
+    margin-top: 20px;
+    padding-left: 6%;
+    font-size: 38px;
+    line-height: 43px;
+  }
+  .textdeslidehistoria {
+    padding-right: 5%;
+    padding-left: 5%;
+  }
+  .tituldevision {
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  .misionvisionc {
+    margin-bottom: 10px;
+  }
+  .visioncontent {
+    width: 100%;
+    margin-bottom: 30px;
+  }
+  .tituldevis {
+    margin-top: 10px;
+  }
+  .textmi {
+    margin-top: 5px;
+  }
+  .instalacionescontent {
+    margin-bottom: 30px;
+  }
+  .uncurso {
+    width: 95%;
+    margin-right: 3%;
+    margin-left: 3%;
+  }
+  .link {
+    margin-top: 3px;
+  }
+  .fechadeinicio {
+    margin-left: 0%;
+  }
+  .textinterimp {
+    width: 100%;
+    margin-left: 0%;
+  }
+  .ctapreinscir {
+    width: 99%;
+    max-width: none;
+    min-width: 0px;
+  }
+  .ctapreinscir.ctaconts {
+    margin-top: 17px;
+  }
+  .ctapreinscir.botdeacademia {
+    width: 99%;
+    min-width: 0px;
+  }
+  .titul2intercurso {
+    padding-right: 2%;
+    padding-left: 2%;
+    line-height: 25px;
+  }
+  .datosdescuela {
+    padding-bottom: 21px;
+  }
+  .datoscenter {
+    width: 100%;
+    margin-top: 16px;
+  }
+  .datodeup {
+    padding-left: 21%;
+    background-position: 48px 0px;
+  }
+  .textdeacademia {
+    margin-top: 17px;
+  }
+  .textyfotosconte {
+    padding-bottom: 5px;
+  }
+  .untextdeaca {
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 15px;
+  }
+  .textdetext {
+    padding-left: 5%;
+  }
+  .fotaca {
+    width: 98%;
+    margin-bottom: 5px;
+  }
+  .listdeunidad {
+    margin-left: 5%;
+  }
+  .list-item {
+    margin-bottom: 10px;
+    line-height: 17px;
+  }
+  .list-item-3 {
+    margin-bottom: 10px;
+    line-height: 17px;
+  }
+  .tituldelblogint {
+    width: 90%;
+    margin-left: 5%;
+    font-size: 15px;
+    line-height: 21px;
+  }
+  .imgdebloginter {
+    width: 90%;
+    margin-left: 5%;
+  }
+  .botregres {
+    width: 20%;
+  }
+  .fechdeinterb {
+    font-size: 10px;
+  }
+  .unrecomendado {
+    width: 100%;
+  }
+  .unlinkdecont {
+    padding-left: 59px;
+    background-position: 22px 50%;
+  }
+  .textfield {
+    width: 98%;
+  }
+  .mapa {
+    min-height: 250px;
+    margin-bottom: 20px;
+  }
+  .masp {
+    height: 250px;
+  }
+  .titulderesult {
+    margin-bottom: 20px;
+    font-size: 22px;
+    line-height: 40px;
+  }
+  .labusqueda {
+    font-size: 27px;
+  }
+  .searchcontent {
+    padding-bottom: 10px;
+  }
+  .itemdemapasitio, .mapasitio ul li {
+    margin-right: 5%;
+    margin-left: 5%;    
+  }
+  .heading {
+    margin-left: 5%;
+    max-width: 80%;
+    margin-top: 40px !important;
+  }
+  .text-block {
+    margin-left: 5%
+  }
+  .botslide {
+    margin-left: 5%;
+  }
+  .labelcurso{
+    display: none;
+  }
+}
