@@ -34,11 +34,12 @@ function IsEmail(email) {
 function Validadyenviar(form, boton) {
 	$(boton).click(function () {
     $( form+' .val' ).each(function( index ) {
-    	var val = $(this).val();
-    	var id = $(this).attr('id');
-    	var type = $(this).attr('type');
-    	var name = $(this).attr('name');
-    //alert(type);
+    	let val = $(this).val();
+    	let id = $(this).attr('id');
+    	let type = $(this).attr('type');
+    	let name = $(this).attr('name');
+    //alert(type)
+
     switch(type) {
     	case 'text':
     	if (val.length < 1 ) {
@@ -72,23 +73,66 @@ function Validadyenviar(form, boton) {
     	}
     	break;
 
-    	case 'captcha':
-    	if($('#g-recaptcha-response').val() == '')  {
-    		reset();
-    		alertify.error("Complete la casilla de verificación.");
-    		return false;
+      case 'select':
+      if (!val) {
+        reset();
+        alertify.error("Ingrese su "+name);
+        return false; 
+      }
+      break;
 
-    	}
-    	break;
+      case 'grupo-select':
+      let dia = $(this).find('#dia').val();
+      let mes = $(this).find('#mes').val()
+      let anio = $(this).find('#anio').val()
+      if (dia == 0 || mes == 0 || anio == 0) {
+        reset();
+        alertify.error("Ingrese su "+name);
+        return false; 
+      }
+      break;
 
-    	case 'button':
-    	var contform = $(form).serialize();
-      $.ajax({
-      	type: "POST",
-      	url: templateurl + "/inc/emailSenderCore.php",
-      	data: contform
-      })
-      .done(function (data) {
+      case 'radio':
+      let radiogrup = document.getElementsByName(name);
+      let groupcheck = false
+      for(let i = 0; i < radiogrup.length; i++) {
+        if(radiogrup[i].checked == true){
+          groupcheck = true;
+        }
+      }
+      if(groupcheck == false){
+       reset();
+       alertify.error("Ingrese su "+name);
+       return false; 
+     }
+     break;
+
+     case 'checkbox':
+     console.log($(this).is(':checked'))
+      if ($(this).is(':checked') == false) {
+        reset();
+        alertify.error("acepte "+name);
+        return false; 
+      }
+      break;
+
+     case 'captcha':
+     if($('#g-recaptcha-response').val() == '')  {
+      reset();
+      alertify.error("Complete la casilla de verificación.");
+      return false;
+
+    }
+    break;
+
+    case 'button':
+    var contform = $(form).serialize();
+    $.ajax({
+     type: "POST",
+     url: templateurl + "/inc/emailSenderCore.php",
+     data: contform
+   })
+    .done(function (data) {
       	//alert(data);
       	if (data == 10) {
       		$("input[type=text], textarea, input[type=email], input[type=number]").val("");
@@ -101,13 +145,13 @@ function Validadyenviar(form, boton) {
           alertify.success('¡Gracias, Te estaremos enviando información!');
         }
       });
-      break;
+    break;
 
-      default:
-    }
+    default:
+  }
 
 
-  });
+});
   });
 }
 //Validadyenviar(form, bot)
@@ -124,7 +168,8 @@ $("data-fancybox").fancybox({
 });
 
 //MAPA Principal
-
+const existmapa = document.getElementById('mapa');
+if(existmapa){
   //CREO EL MAPA
   google.maps.event.addDomListener(window, 'load', init);
   function init() {
@@ -176,29 +221,30 @@ $("data-fancybox").fancybox({
     }
 
     //CREAR MARCADOR POR TIENDA
-      var lon = $( '.latienda' ).find('.lon').text();
-      var lat = $( '.latienda' ).find('.lat').text();
-      var tit = $( '.latienda' ).find('.tit').text();
-      var cont = $( '.latienda' ).find('.con').text();
-      var mrk = $( '.latienda' ).find('.urlmarker').text();
-      var mapElement = document.getElementById('mapa');
-      var map = new google.maps.Map(mapElement, mapOptions);
-      var location = new google.maps.LatLng(lat, lon);
-      map.setCenter(location, 15);
-      map.setZoom(18);
-      var INTERNA = crearMarcadorint(lat, lon, mrk);
-      addInfoWindow(INTERNA, tit, cont);
-      var infoWindow = new google.maps.InfoWindow({
-        content: '<div class="globito" style="width:130px; height:50px; "><h4>'+tit+'</h4></div>'
-      });
+    var lon = $( '.latienda' ).find('.lon').text();
+    var lat = $( '.latienda' ).find('.lat').text();
+    var tit = $( '.latienda' ).find('.tit').text();
+    var cont = $( '.latienda' ).find('.con').text();
+    var mrk = $( '.latienda' ).find('.urlmarker').text();
+    var mapElement = document.getElementById('mapa');
+    var map = new google.maps.Map(mapElement, mapOptions);
+    var location = new google.maps.LatLng(lat, lon);
+    map.setCenter(location, 15);
+    map.setZoom(18);
+    var INTERNA = crearMarcadorint(lat, lon, mrk);
+    addInfoWindow(INTERNA, tit, cont);
+    var infoWindow = new google.maps.InfoWindow({
+      content: '<div class="globito" style="width:130px; height:50px; "><h4>'+tit+'</h4></div>'
+    });
 
-      infoWindow.open(map, INTERNA);
-      setTimeout(function() {
-        infoWindow.close();
-      }, 8000);
+    infoWindow.open(map, INTERNA);
+    setTimeout(function() {
+      infoWindow.close();
+    }, 8000);
 
     
   }
+}
 
 
 });

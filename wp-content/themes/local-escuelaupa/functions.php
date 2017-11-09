@@ -426,6 +426,8 @@ add_theme_support('post-thumbnails');
 add_image_size( 'contenido-informativo', 296, 196, true );
 add_image_size( 'interior-contenido', 470, 216, true );
 add_image_size( 'mini-recientes', 51, 51, true );
+add_image_size( 'blog-inicio', 296, 160, true );
+add_image_size( 'blog-interior', 470, 216, true );
 
 //AGREGAR TABLA DE suscripciones UPA
 function suscripciones_export_users() {

@@ -901,6 +901,7 @@
   background-color: #fafafa;
   color: #353535;
   text-decoration: none;
+  min-height: 387px;
 }
 
 .uncurso.unbloggrid {
@@ -934,7 +935,6 @@
 .textdecurso {
   position: relative;
   width: 87%;
-  max-height: 50px;
   min-height: 50px;
   margin-top: 7px;
   margin-left: 6%;
@@ -1359,7 +1359,7 @@
   width: 46%;
   margin-top: 0px;
   margin-left: 0%;
-  padding: 72px 8% 65px;
+  padding: 88px 8% 75px;
   float: left;
   border: 1px solid #d6cdc2;
   background-color: #fbfaf7;
@@ -1369,6 +1369,7 @@
   font-weight: 600;
   text-align: center;
   text-transform: uppercase;
+  min-height: 216px;
 }
 
 .imgdebloginter {
@@ -1736,7 +1737,7 @@
 .emergentecontent {
   display: block;
   overflow: hidden;
-  max-width: 500px;
+  max-width: 700px;
   margin-top: 0px;
   margin-right: auto;
   margin-left: auto;
@@ -1812,6 +1813,33 @@
   width: 84%;
   max-height: 195px;
   max-width: 387px;
+}
+.titulprograma{
+  float: left;
+  width: 100%;
+  margin: 40px 0;
+  text-align: center;
+}
+.formedia{
+  width: 48%;
+  float: left;
+  margin: 10px 1%;
+}
+.generoradio, .estadoradio{
+  width: 49%;
+  margin-left: 1%;
+  float: left;  
+}
+.fechanacimiento select{
+  width: 31%;
+  float: left;
+  margin: 10px 1% 10px 0;
+}
+form .terminos{
+  display: block;
+  position: relative;
+  float: left;
+  width: 50%;
 }
 @media (max-width: 991px) {
  .w-nav-overlay{
@@ -1957,6 +1985,9 @@
 .heading{
   font-size: 25px;
   line-height: 26px;
+}
+.contentblog .uncurso{
+  margin-right: 0;
 }
 }
 

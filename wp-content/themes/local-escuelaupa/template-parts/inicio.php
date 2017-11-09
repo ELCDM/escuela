@@ -64,11 +64,11 @@ get_header();
 				<?php
 				$query = new WP_Query( array( 'post_type' => 'contenidoinformativo', 'posts_per_page'=> 3 ) );
 				while ($query->have_posts()):$query->the_post();
-				$post_thumbnail = wp_get_attachment_image_src(get_post_thumbnail_id(get_the_ID()), 'full');
+				$post_thumbnail = wp_get_attachment_image_src(get_post_thumbnail_id(get_the_ID()), 'blog-inicio');
 				$url = get_post_meta( get_the_ID(), 'wpcf-link-slide', true );
 				?>
 				<a class="unblog w-clearfix w-inline-block" data-ix="scale-propio" href="<?php the_permalink(); ?>">
-					<img class="imgblog" src="<?php bloginfo('template_url'); ?>/images/imgblog1.png">
+					<img class="imgblog" src="<?php echo $post_thumbnail[0]; ?>" alt="<?php the_title();?>">
 					<div class="fechablog"><?php echo get_the_time('F j, Y'); ?></div>
 					<div class="textextracgt"><?php the_excerpt(); ?></div>
 				</a>

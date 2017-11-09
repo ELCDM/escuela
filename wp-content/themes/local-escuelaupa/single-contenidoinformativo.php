@@ -1,7 +1,7 @@
 <?php
 the_post();
 get_header();
-$post_thumbnail = wp_get_attachment_image_src(get_post_thumbnail_id(get_the_ID()), 'interior-contenido');
+$post_thumbnail = wp_get_attachment_image_src(get_post_thumbnail_id(get_the_ID()), 'blog-interior');
 $elpost = $post->ID;
 ?>
 <main class="conten_content min5000">
@@ -18,7 +18,7 @@ $elpost = $post->ID;
 					<div class="textderecient">Recientes</div>
 					<?php
 					$co = 0;
-					$query = new WP_Query( array( 'post_type' => 'contenidoinformativo', 'posts_per_page'=> 4, 'orderby' => 'date', 'post__not_in' => array( $elpost ),'order' => 'ASC' ) );
+					$query = new WP_Query( array( 'post_type' => 'contenidoinformativo', 'posts_per_page'=> 4, 'orderby' => 'date', 'post__not_in' => array( $elpost ),'order' => 'DESC' ) );
 					while ($query->have_posts()):$query->the_post();
 					$post_thumbnail = wp_get_attachment_image_src(get_post_thumbnail_id(get_the_ID()), 'mini-recientes');
 					?>

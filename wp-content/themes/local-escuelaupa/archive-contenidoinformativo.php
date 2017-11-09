@@ -10,7 +10,7 @@ get_header();
 		<div class="div960 w-clearfix">
 			<?php
 			$co = 0;
-			$query = new WP_Query( array( 'post_type' => 'contenidoinformativo', 'posts_per_page'=> 6, 'orderby' => 'date', 'order' => 'ASC' ) );
+			$query = new WP_Query( array( 'post_type' => 'contenidoinformativo', 'posts_per_page'=> 12, 'orderby' => 'date', 'order' => 'DESC' ) );
 			while ($query->have_posts()):$query->the_post();
 			$post_thumbnail = wp_get_attachment_image_src(get_post_thumbnail_id(get_the_ID()), 'contenido-informativo');
 			?>

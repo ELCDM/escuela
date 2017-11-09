@@ -39,11 +39,12 @@ $imagen_doce = get_post_meta( get_the_ID(), 'wpcf-imagen-doce', true );
 	<div class="bannerfulldeacademia">
 		<div class="div960 w-clearfix">
 			<div class="titulybot w-clearfix">
-				<h1 class="heading-2">ACADEMIA DE BELLEZA</h1>
+				<h1 class="heading-2">Programade cultor de belleza<br> y estilista profesional</h1>
 				<a class="botinteracademia ctapreinscir w-button" data-fancybox data-src="<?php bloginfo('template_url')?>/inc/form.php?curs=academia_de_belleza" href="javascript:;">PRE-INSCRIBIRME AL CURSO</a></div>
 				<img class="imgdeacademia" src="<?php echo $post_thumbnail[0]; ?>"></div>
 			</div>
 			<div class="contentdeacade">
+				<h2 class="titulprograma">Programa Cultor de Belleza</h2>
 				<div class="div960 lasunidades w-clearfix">
 					<div class="unaunidad w-clearfix">
 					<h2 class="tituldeunidad">UNIDAD UNO</h2>
@@ -75,6 +76,7 @@ $imagen_doce = get_post_meta( get_the_ID(), 'wpcf-imagen-doce', true );
 						<img src="<?php echo $imagen_seis; ?>">
 						<?php echo $unidad_seis; ?>
 					</div>
+					<h2 class="titulprograma">Programa Estilista Profesional</h2>
 					<div class="unaunidad w-clearfix">
 						<h2 class="tituldeunidad">UNIDAD SIETE</h2>
 						<img src="<?php echo $imagen_siete; ?>">
